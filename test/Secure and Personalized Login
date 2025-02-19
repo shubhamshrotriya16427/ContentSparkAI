@@ -1,0 +1,36 @@
+Task 3: Setup OAuth Application
+
+1. Verify if the OAuth is configured correctly with the provider.
+2. Verify if the redirect URI is correctly mapped to the provider's dashboard.
+3. Verify if the permissions and scopes are setted up correctly in OAuth 
+
+Task 4: Design Database Schema
+
+1. Make sure that database schema has all the required fields to store the providers Information.
+2. Check if the user information received from Oauth is stored correctly.
+3. Verify if the unique keys for the important fields are set corectly.
+
+Task 5: Session Management
+
+1. Verify that a session is created upon successful login.
+2. Verify if the session is getting expire according to the policies defined.
+3. Check if the session is getting terminated after logging out.
+
+Task 6: UI Component for OAuth
+
+1. Verify if the Oauth button is displayed correctly on the screen
+2. Check if the click action of the button is triggering the flow.
+3. Check if the error message is being displayed upon login failure.
+
+Task 7: Error Handling
+
+1. Check if the all errors thrown by the Oauth are handled correctly.
+2. Make sure the network errors are handled correctly.
+3. Check if all th errors are being logged correctly for troubleshooting.
+
+Task 8: Testing OAuth Flow
+
+1. Verify the OAuth flow to check if user can successfully login.
+2. Make sure the user is notified upon failing to login.
+3. Check if the OAuth token expiration is handled correctly. 
+

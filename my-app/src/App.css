@@ -1,0 +1,65 @@
+body {
+  background: #000000;
+  overflow-x: hidden;
+}
+/*Login*/
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.login-container .signin-box img {
+  display: block;
+  margin: 0 auto 20px;
+  width: 200px;
+  height: auto;
+}
+.login-container .social-signin {
+  position: relative;
+  left: 9px;
+}
+/*History*/
+.hstry-container .ant-input,
+.fav-container .ant-input,
+.fltr-save .ant-input,
+.rdt-mdl .ant-input {
+  border: 1px solid #424242 !important;
+  background: #141414 !important;
+  color: #ffffff !important;
+  border-radius: 6px 0 0 6px !important;
+}
+.hstry-container
+  .ant-input-search
+  > .ant-input-group
+  > .ant-input-group-addon:last-child
+  .ant-input-search-button,
+.fav-container
+  .ant-input-search
+  > .ant-input-group
+  > .ant-input-group-addon:last-child
+  .ant-input-search-button {
+  border-radius: 0 6px 6px 0 !important;
+  background: #141414 !important;
+  color: #ffffff !important;
+  border: 1px solid #424242 !important;
+}
+.prmptbtn {
+  flex-flow: row wrap !important;
+}
+.prmptbtn button {
+  margin-bottom: 10px !important;
+}
+
+@media (max-width: 767px) {
+  .home-pg-container {
+    display: block !important;
+  }
+  .home-pg-container > .ant-col-12 {
+    max-width: 100% !important;
+    margin-bottom: 20px !important;
+  }
+  .home-pg-container > .ant-col-12 {
+    max-width: 100% !important;
+  }
+}

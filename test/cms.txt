@@ -1,0 +1,47 @@
+Task 1: Social Media Account Linking
+
+1. As a new user, when I navigate to the content performance page, I expect to see a button to link my social media account.
+2. As a user, when I click the "Link Account" button, I expect to be redirected to the social media platform's authorization page.
+3. As a user who has already linked their account, when I view the content performance page, I expect not to see the "Link Account" button.
+
+
+Task 2: Content Review and Editing
+
+1. As a user, after creating content, I expect to be able to review it before posting to social media.
+2. As a user, if I notice an error in my content, I expect to be able to edit it before posting.
+3. As a user, when I make edits to my content, I expect to see a clear indication of when the content was last edited.
+
+
+Task 3: Posting to Social Media
+
+1. As a user, when I click "Post Now", I expect to see a confirmation dialog before the content is posted to social media.
+2. As a user, after my content is successfully posted, I expect to see a success message.
+3. As a user, if there's an error during posting, I expect to see a clear error message explaining what went wrong and how to resolve it.
+
+
+Task 4: Post Performance Tracking
+
+1. As a user, after posting content, I expect to see real-time updates of engagement metrics (likes, comments, shares) on the content performance page.
+2. As a user, I expect to be able to sort and filter my posts based on different performance metrics.
+3. As a user, I expect the upvotes and comments count for my posts to update periodically without needing to refresh the page manually.
+
+
+Task 5: Comprehensive Content Filtering
+
+1. As a user, I expect to see columns in the content table for all the filters I used when creating the content, such as content type, industry, age range, and interests.
+2. As a user, I expect to be able to sort the content table by any of the filter columns, allowing me to group similar content together.
+3. As a user, when I click on a column header in the content table, I expect the sorting to toggle between ascending and descending order.
+
+
+Task 6: Content Creation Timestamp Tracking
+
+1. As a user, I expect to see a "Created At" column in the content table showing the date and time when each piece of content was created.
+2. As a user, I expect to be able to sort the content table by the "Created At" column, allowing me to see my newest or oldest content first.
+3. As a user, I expect the "Created At" timestamp to be displayed in a consistent, readable format (e.g., "YYYY-MM-DD HH:mm:ss") across all content items.
+
+
+Task 7: Error Handling for social media Interactions
+
+1. As a user, if there's an error while posting to social media due to an expired token, I expect the application to automatically refresh the token and retry the post without me needing to intervene.
+2. As a user, if there's an error fetching social media metrics due to API rate limiting, I expect to see a temporary placeholder (like "—") instead of the metrics, with the application automatically retrying in the next update cycle.
+3. As a user, I wanted a UI that states when data was last fetched eg. (2 mins ago etc).

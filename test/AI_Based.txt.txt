@@ -1,0 +1,39 @@
+Task 1: UI Component
+1. Verify that the AI content generation button is visible on the UI.
+2. Ensure that clicking the AI content generation button triggers the content creation process.
+3. Check that the UI provides feedback if the AI content generation fails.
+
+Task 2: Integration with Filters
+1. Check to make sure the created material has the filters applied correctly.
+2. Verify that users are able to view the generated filtered material and choose from a variety of filters.
+3. Verify that if no filters are chosen, the system does not apply any.
+
+Task 3: Implement Backend API for Saving Data
+1. Check to make sure the created material is properly saved to the database by the API.
+2. Verify that upon successful content saving, the API provides a success message.
+3. Verify that in the event that content saving fails, the API delivers an error message.
+
+Task 4: Form Sanitization
+1. Confirm that the AI content generator sanitizes user inputs before processing them.
+2. During input sanitization, make sure that any potentially dangerous scripts or SQL injection attempts are neutralized.
+3. Verify that during the sanitization procedure, the system does not exclude legitimate characters.
+
+Task 5: Implement CSP (Content Security Policy)
+1. Check that the response headers for the Content Security Policy (CSP) are correctly configured.
+2. Verify that the CSP stops unapproved scripts and styles from loading.
+3. Verify that the CSP permits the scripts and styles required for the proper operation of the application.
+
+Task 6: Implement Express Middleware
+1. Confirm that the appropriate routes have the customized Express middleware applied to them.
+2. Verify that request validation and error handling are properly handled by the middleware.
+3. Verify that the middleware properly records requests and answers for troubleshooting.
+
+Task 7: Express Security Checklist
+1. Confirm that all Express routes require HTTPS.
+2. Verify that the program sets secure HTTP headers using Helmet.
+3. Verify that all sensitive information is encrypted securely before it is sent or kept.
+
+Task 8: Node Security Checklist
+1. Make sure there are no known vulnerabilities in the application by using a security audit tool (such as npm audit).
+2. Verify that there are no security vulnerabilities and that all dependencies are current.
+3. Verify that the program manages environment variables safely and doesn't reveal any private information.

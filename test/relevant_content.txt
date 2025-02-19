@@ -1,0 +1,16 @@
+Task 1: POC on figuring out how to generate relevant strategy
+Test cases:
+1. As a user, when I select a content type from the dropdown, I expect the system to apply this filter to the content generation process.
+2. As a user, when I choose an industry/category, I expect this selection to influence the generated content appropriately.
+3. As a user, when I specify audience demographics like age range, interests, and gender, I expect the generated content to be tailored to this audience.
+
+Task 2: Implementation of the upload strategy
+Test cases:
+1. As a user, when I input additional details in the prompt area, I expect the system to incorporate this information into the generated content.
+2. As a user, when I select multiple filters (e.g., content type, industry, tone, themes), I expect the system to combine these filters effectively in the content generation process.
+3. As a user, if I don't select certain optional filters, I expect the system to generate content without applying those specific filters.
+
+Task 3: UI Component
+Test cases:
+1. As a user, I should be able to select mulyiple previous content to generate new content
+2. As a user, when I click the "Generate Content" button, I expect to see the AI-generated content displayed on the screen.

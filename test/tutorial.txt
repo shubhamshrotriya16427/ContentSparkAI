@@ -1,0 +1,14 @@
+Task 1: Detect if user is a first time user
+1. As a new user, when I sign up and log in for the first time, I expect to be recognized as a first-time user and offered a tutorial.
+2. As an existing user, when I log in, I expect the system to recognize me and not treat me as a new user or offer the initial tutorial again.
+3. As an existing user, if I clear my browser cache and log in again, I expect the system to still recognize me as an existing user and not offer the initial tutorial.
+
+Task 2: Design Tutorial Content
+1. As a new user going through the tutorial, I expect to learn about all the major features of the application so I can use it effectively.
+2. As someone new to the application, I expect the tutorial content to be concise and easy to understand, without overwhelming me with information.
+3. As a visual learner, I expect the tutorial to include both text explanations and visual aids like screenshots or GIFs to help me understand the features better.
+
+Task 3: Develop Interactive Tutorial UI
+1. As a user going through the tutorial, I expect the tutorial overlay to appear clearly without blocking any important parts of the application I'm trying to learn about.
+2. As I progress through the tutorial, I expect to be able to move forward and backward easily using clearly visible Next and Previous buttons.
+3. If I need to skip the tutorial, I expect to be able to exit at any point.

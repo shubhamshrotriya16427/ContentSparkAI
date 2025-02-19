@@ -1,0 +1,35 @@
+Story 3: History of Generated Content (5 pts)
+Task 1: Define Data Model
+	1.Verify that the schema of the data model correctly defines all the essential fields 
+	2.Verify that the fields accept only valid data types
+	3.Ensure that required fields cannot be null.
+	4.Confirm that all required fields are present, and they have the correct data types
+Task 2: POC on mongoose
+	1.Verify that the connect is built successfully
+	2.Verify that by using the data model that is defined, new documents can be created and saved 
+	3.Verify that we are able to retrieve document from database to ensure that the model is set up correctly
+Task 3: UI component for history
+	1.Ensure that placeholder or elements are displayed on UI when there is no data present
+	2.Verify that all the history items show the correct details for each component
+	3.Ensure that the UI component is responsive and displays correctly on different screen sizes and devices
+	4.Ensure that the changes made in data model are reflected in UI
+Task 4: Implement virtual scroller
+	1.Verify that as the user scrolls down, additional data is loaded on screen
+	2.Ensure there are no significant lags or performance issues.
+	3.Ensure that the new data that is loaded after scrolling is appended correctly to the existing data
+Task 5: Implement Backend API for fetching data
+	1.Verify the format of data return matches with the expected format
+	2.Verify that the content history is accessible
+	3.Ensure that the data return is correct for a given user
+	4.Confirm that the API correctly retrieves the history data for the authenticated user.
+	5.Test that a success status is returned when endpoint request is executed successfully
+Task 6: Error Handling	
+	1.Verify that there are no invalid entries saved in the database
+	2.Verify that the backend API returns appropriate error responses (e.g., 400 Bad Request, 500 Internal Server Error) when errors occur.
+	3.Test that a meaningful error message is displayed to the user on UI when an error occurs
+Task 7: Testing and Validation
+	1.Conduct a comprehensive test to verify that a user can create content, have it saved to the history, and view it in the history UI component.
+	2.Perform testing to ensure that the content history feature is easily to navigate and understand by the user
+	3.Test authentication and authorization mechanisms for accessing content history.
+	4.Ensure that users can only access their own content history and not the history of other users.
+	5.Verify that the history of generated content is consistently accurate across different parts of the application
